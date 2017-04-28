@@ -202,12 +202,12 @@ $('form[name="question-form"]').submit(function(event) {
 	renderPage(state, page_variables);
 });
 
-$('form[name="quiz-continue"]').submit(function(event) {
+$('.quiz-continue').click(function(event) {
 	nextQuestion(state);
 	renderPage(state, page_variables);
 });
 
-$('form[name="try-again"]').submit(function(event) {
+$('.try-again').click(function(event) {
 	event.preventDefault();
 	restartQuiz(state);
 	renderPage(state, page_variables);
