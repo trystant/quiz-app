@@ -133,3 +133,8 @@ function renderPage(state, elements) {
 
 function renderQuizStart(state, element) {
 };
+
+function renderQuizQuestion(state, element) {
+	renderQuestionText(state, element.find('.question-text'));
+	renderQuestionChoices(state, element.find('.question-choices'));
+};
