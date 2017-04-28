@@ -138,3 +138,9 @@ function renderQuizQuestion(state, element) {
 	renderQuestionText(state, element.find('.question-text'));
 	renderQuestionChoices(state, element.find('.question-choices'));
 };
+
+function renderQuizAnswer(state, element) {
+	renderAnswerHeader(state, element.find('.answer-header'));
+	renderAnswerText(state, element.find('.answer-text'));
+	renderAnswerInfo(state, element.find('.answer-info'));
+}
