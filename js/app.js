@@ -143,4 +143,8 @@ function renderQuizAnswer(state, element) {
 	renderAnswerHeader(state, element.find('.answer-header'));
 	renderAnswerText(state, element.find('.answer-text'));
 	renderAnswerInfo(state, element.find('.answer-info'));
-}
+};
+
+function renderQuizScore(state, element) {
+	renderFinalScore(state, element.find('.final-score'));
+};
