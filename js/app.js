@@ -9,7 +9,7 @@ var state = {
 		},
 		{
 			questionText: "#2. Which Targaryen king first successfully conquered Dorne (for a time)?",
-			questionChoices: ['A. Aegon I Targaryen', 'B. Viserys II Targaryen', 'Daeron I Targaryen', 'Aegon IV Targaryen'],
+			questionChoices: ['A. Aegon I Targaryen', 'B. Viserys II Targaryen', 'C. Daeron I Targaryen', 'D. Aegon IV Targaryen'],
 			correctChoiceIndex: 2,
 			answerText: "The correct answer was C. Daeron I Targaryen.",
 			answerInfo: 'Daeron I Targaryen, a.k.a. "The Young Dragon", conquered Dorne when he was 15 in 158 AC. He was killed in the rebellion in 161 AC at 18 years old.'
