@@ -69,6 +69,6 @@ var state = {
 			correctChoiceIndex: 2,
 			answerText: "",
 			answerInfo: ""
-		},
+		}
 	],
 }
