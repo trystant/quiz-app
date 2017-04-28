@@ -153,7 +153,8 @@ function renderQuizQuestion(state, element) {
 function renderQuizAnswer(state, element) {
 	renderAnswerHeader(state, element.find('.answer-header'));
 	renderAnswerText(state, element.find('.answer-text'));
-	renderAnswerInfo(state, element.find('.answer-info'));	
+	renderAnswerInfo(state, element.find('.answer-info'));
+	$('.quiz-question').show();
 };
 
 function renderQuizScore(state, element) {
