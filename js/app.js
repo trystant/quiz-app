@@ -110,7 +110,7 @@ function nextQuestion(state) {
 	if (state.currentQuestionNumber === state.questions.length) {
 		setPosition(state, 'quiz-score');
 	} else {
-		setPosition(state, 'question');
+		setPosition(state, 'quiz-question');
 	}
 };
 
@@ -194,6 +194,12 @@ $('form[name="quiz-begin"]').submit(function(event) {
 	renderPage(state, page_variables);
 });
 
+$('.try-again').click(function(event) {
+	event.preventDefault();
+	restartQuiz(state);
+	renderPage(state, page_variables);
+});
+
 $('form[name="question-form"]').submit(function(event) {
 	event.preventDefault();
 	var answer = $('input[name="user-answer"]:checked').val();
@@ -207,12 +213,4 @@ $('.quiz-continue').click(function(event) {
 	renderPage(state, page_variables);
 });
 
-$('.try-again').click(function(event) {
-	event.preventDefault();
-	restartQuiz(state);
-	renderPage(state, page_variables);
-});
-
-$(function() {
-	renderPage(state, page_variables);
-});
+$(function() { renderPage(state, page_variables); });
