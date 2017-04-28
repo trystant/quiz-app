@@ -73,6 +73,13 @@ var state = {
 	],
 	score: 0,
 	currentQuestionNumber: 0,
-	position: 'beginning',
+	position: 'quiz-start',
 	lastAnswer: false,
+};
+
+var page_variables = {
+	'quiz-start': $('.quiz-start'),
+	'quiz-question': $('.quiz-question'),
+	'quiz-answer': $('.quiz-answer'),
+	'quiz-score': $('.quiz-score')
 };
