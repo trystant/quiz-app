@@ -176,3 +176,9 @@ function renderAnswerText(state, element) {
 	var text = currentQuestion.answerText;
 	element.text(text);
 };
+
+function renderAnswerInfo(state, element) {
+	var currentQuestion = state.questions[state.currentQuestionNumber];
+	var text = currentQuestion.answerInfo;
+	element.text(text);
+};
