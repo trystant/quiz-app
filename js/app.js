@@ -102,3 +102,14 @@ function answerQuestion(state, answer) {
 	}
 	setPosition(state, 'quiz-answer');
 };
+
+
+
+function nextQuestion(state) {
+	state.currentQuestionNumber++;
+	if (state.currentQuestionNumber === state.questions.length) {
+		setPosition(state, 'quiz-score');
+	} else {
+		setPosition(state, 'question');
+	}
+};
