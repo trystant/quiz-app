@@ -71,4 +71,8 @@ var state = {
 			answerInfo: ""
 		}
 	],
-}
+	score: 0,
+	currentQuestionNumber: 0,
+	position: 'beginning',
+	lastAnswer: false,
+};
