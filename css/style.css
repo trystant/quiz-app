@@ -16,6 +16,10 @@ h2 {
 	font-size: 35px;
 }
 
+li {
+	list-style-type: none;
+}
+
 .correct-answer, .incorrect-answer {
 	font-size: 30px;
 }
