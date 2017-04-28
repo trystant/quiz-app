@@ -169,6 +169,7 @@ function renderQuestionChoices(state, element) {
 
 function renderAnswerHeader(state, element) {
 	var html = state.lastAnswer ? '<h3 class="correct-answer">Correct!</h3>' : '<h3 class="incorrect-answer">Incorrect!</h3>';
+	element.html(html);
 };
 
 function renderAnswerText(state, element) {
