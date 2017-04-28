@@ -83,3 +83,7 @@ var page_variables = {
 	'quiz-answer': $('.quiz-answer'),
 	'quiz-score': $('.quiz-score')
 };
+
+function setPosition(state, position) {
+	state.position = position;
+};
