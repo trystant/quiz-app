@@ -2,7 +2,7 @@ var state = {
 	questions: [
 		{
 			questionText: "#1. What were the name of the Aegon the Conqueror's three dragons?",
-			questionChoices: ['A. Balerion, Vhagar, Meraxes', 'B. Drogon, Rhaegal, Viserion', 'C. Balerion, Quicksilver, Tessarion', 'D. Drogon, Viserion, Tyraxes'],
+			questionChoices: ['A. Balerion, Vhagar, and Meraxes', 'B. Drogon, Rhaegal, and Viserion', 'C. Balerion, Quicksilver, and Tessarion', 'D. Drogon, Viserion, and Tyraxes'],
 			correctChoiceIndex: 0,
 			answerText: "The correct answer was A. Balerion, Vhagar and Meraxes.",
 			answerInfo: "Aegon rode Balerion and his two sister-wives, Visenya and Rhaenys, rode Vhagar and Meraxes respectively."
@@ -33,42 +33,42 @@ var state = {
 			questionChoices: ['A. House Greystark', 'B. House Casterly', 'C. House Tarbeck', 'D. House Gardener'],
 			correctChoiceIndex: 2,
 			answerText: "The correct answer was C. House Tarbeck.",
-			answerInfo: "House Greystark was wiped out after joining the Boltons in rebellion against the Starks centuries. House Casterly vanished sometime in the Age of Heroes. House Gardener was wiped out during Aegon's Conquest."
+			answerInfo: "House Greystark was wiped out after joining the Boltons in rebellion against the Starks centuries ago. House Casterly vanished sometime in the Age of Heroes. House Gardener was wiped out during Aegon's Conquest."
 		},
 		{
-			questionText: "#6. ",
-			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
+			questionText: "#6. What was the direwolf in the beginning of the first book killed by?",
+			questionChoices: ['A. A stag', 'B. A hunter', 'C. A bear', 'D. A wight'],
 			correctChoiceIndex: 0,
-			answerText: "The correct answer was A. ",
-			answerInfo: ""
+			answerText: "The correct answer was A. A stag.",
+			answerInfo: "The direwolf being killed by a stag in the beginning served as early foreshadowing, symbolizing that House Stark and House Baratheon (whose sigils are a direwolf and a stag respectively) would bring about each other's mutual destruction."
 		},
 		{
-			questionText: "#7. ",
-			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
+			questionText: "#7. Who is the one suspected of being behind the Frey Pies?",
+			questionChoices: ['A. Arya Stark', 'B. Wyman Manderly', 'C. Roose Bolton', 'D. Howland Reed'],
 			correctChoiceIndex: 1,
-			answerText: "The correct answer was B. ",
-			answerInfo: ""
+			answerText: "The correct answer was B. Wyman Manderly.",
+			answerInfo: "While in the HBO series, Arya is the one who cooks the Frey pies, in the books, Lord Wyman Manderly is most likely doing it as revenge for the Red Wedding, killing and baking Freys and serving them at Ramsay Bolton's wedding feast."
 		},
 		{
-			questionText: "#8. ",
-			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
+			questionText: "#8. Who was behind the Sack of Saltpans?",
+			questionChoices: ['A. Gregor Clegane', 'B. Rorge', 'C. Tywin Lannister', 'D. Ramsay Bolton'],
 			correctChoiceIndex: 1,
-			answerText: "The correct answer was B. ",
-			answerInfo: ""
+			answerText: "The correct answer was B. Rorge.",
+			answerInfo: "The Sack of Saltpans was considered one of the most horrific events to take place during the War of the Five Kings. The psychopathic Rorge led a band of marauders in a raid on the town, burning it down and slaughtering almost every inhabitant."
 		},
 		{
-			questionText: "#9",
-			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
+			questionText: "#9. What was the Visenya Targaryen's Valyrian steel longsword?",
+			questionChoices: ['A. Oathkeeper', 'B. Dawn', 'C. Hearteater', 'D. Dark Sister'],
 			correctChoiceIndex: 3,
-			answerText: "The correct answer was D. ",
-			answerInfo: ""
+			answerText: "The correct answer was D. Dark Sister.",
+			answerInfo: "Aegon Targaryen's older sister-wife is, despite being a female, still highly regarded as a warrior. It was Visenya Targaryen who was behind the formation of the Kingsguard."
 		},
 		{
-			questionText: "#10",
-			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
+			questionText: "#10. What was the nickname of Aegon IV Targaryen?",
+			questionChoices: ["A. The Unlikely", 'B. The Wise', 'C. The Unworthy', 'D. The Mad King'],
 			correctChoiceIndex: 2,
-			answerText: "The correct answer was C. ",
-			answerInfo: ""
+			answerText: "The correct answer was C. The Unworthy.",
+			answerInfo: 'Aegon IV Targaryen, a.k.a. "Aegon the Unworthy", is regarded as one of the worst, if not THE worst, of the Targaryen kings. His hedonism and horrible behavior made for a horrible reign, and his legitimizing of his bastards out of spite led to five Blackfyre Rebellions.'
 		}
 	],
 	score: 0,
