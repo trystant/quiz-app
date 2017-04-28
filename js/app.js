@@ -87,6 +87,13 @@ var state = {
 	lastAnswer: false,
 };
 
+var page_variables = {
+	'quiz-start': $('.quiz-start'),
+	'quiz-question': $('.quiz-question'),
+	'quiz-answer': $('.quiz-answer.modal'),
+	'quiz-score': $('.quiz-score')
+};
+
 function setPosition(state, position) {
 	state.position = position;
 };
@@ -105,8 +112,6 @@ function answerQuestion(state, answer) {
 	}
 	setPosition(state, 'quiz-answer');
 };
-
-
 
 function nextQuestion(state) {
 	state.currentQuestionNumber++;
@@ -203,13 +208,6 @@ function renderAnswerInfo(state, element) {
 function renderFinalScore(state, element) {
 	var text = 'You scored ' + state.score + ' out of ' + state.questions.length + '.';
 	element.text(text);
-};
-
-var page_variables = {
-	'quiz-start': $('.quiz-start'),
-	'quiz-question': $('.quiz-question'),
-	'quiz-answer': $('.quiz-answer'),
-	'quiz-score': $('.quiz-score')
 };
 
 $('form[name="quiz-begin"]').submit(function(event) {
