@@ -90,7 +90,7 @@ var state = {
 var page_variables = {
 	'quiz-start': $('.quiz-start'),
 	'quiz-question': $('.quiz-question'),
-	'quiz-answer': $('.quiz-answer.modal'),
+	'quiz-answer': $('.quiz-answer'),
 	'quiz-score': $('.quiz-score')
 };
 
