@@ -8,8 +8,16 @@ header, main {
 	margin: 0 auto;
 }
 
-.correct-answer, .incorrect-answer {
+h1 {
 	font-size: 40px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+.correct-answer, .incorrect-answer {
+	font-size: 30px;
 }
 
 .correct-answer {
