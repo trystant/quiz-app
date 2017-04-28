@@ -87,3 +87,9 @@ var page_variables = {
 function setPosition(state, position) {
 	state.position = position;
 };
+
+function restartQuiz(state) {
+	state.score = 0;
+	state.currentQuestionNumber = 0;
+	setPosition(state, 'quiz-start');
+};
