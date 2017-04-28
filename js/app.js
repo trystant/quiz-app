@@ -4,70 +4,70 @@ var state = {
 			questionText: "#1. What were the name of the Aegon the Conqueror's three dragons?",
 			questionChoices: ['A. Balerion, Vhagar, Meraxes', 'B. Drogon, Rhaegal, Viserion', 'C. Balerion, Quicksilver, Tessarion', 'D. Drogon, Viserion, Tyraxes'],
 			correctChoiceIndex: 0,
-			answerText: "The correct answer was A. Balerion, Vhagar and Meraxes",
+			answerText: "The correct answer was A. Balerion, Vhagar and Meraxes.",
 			answerInfo: "Aegon rode Balerion and his two sister-wives, Visenya and Rhaenys, rode Vhagar and Meraxes respectively."
 		},
 		{
-			questionText: "#2. ",
-			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
+			questionText: "#2. Which Targaryen king first successfully conquered Dorne (for a time)?",
+			questionChoices: ['A. Aegon I Targaryen', 'B. Viserys II Targaryen', 'Daeron I Targaryen', 'Aegon IV Targaryen'],
 			correctChoiceIndex: 2,
-			answerText: "",
-			answerInfo: ""
+			answerText: "The correct answer was C. Daeron I Targaryen.",
+			answerInfo: 'Daeron I Targaryen, a.k.a. "The Young Dragon", conquered Dorne when he was 15 in 158 AC. He was killed in the rebellion in 161 AC at 18 years old.'
 		},
 		{
-			questionText: "#3. ",
-			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
+			questionText: "#3. Who was the man who knighted Jaime Lannister?",
+			questionChoices: ['A. Ser Barristan Selmy', 'B. Ser Arthur Dayne', 'C. King Robert Baratheon', 'D. The Smiling Knight'],
 			correctChoiceIndex: 1,
-			answerText: "",
-			answerInfo: ""
+			answerText: "The correct answer was B. Arthur Dayne.",
+			answerInfo: 'Ser Arthur Dayne, a.k.a. "The Sword of the Morning was a member of the Kingsguard and thought of as one of the greatest knights in the history of Westeros. He knighted Jaime Lannister after Jaime helped fight against the Kingswood Brotherhood.'
 		},
 		{
-			questionText: "#4. ",
-			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
+			questionText: "#4. Which of these characters has not had a POV Chapter?",
+			questionChoices: ['A. Jaime Lannister', 'B. Theon Greyjoy', 'C. Victarion Greyjoy', 'D. Robb Stark'],
 			correctChoiceIndex: 3,
-			answerText: "",
-			answerInfo: ""
+			answerText: "The correct answer was D. Robb Stark.",
+			answerInfo: "None of the initial kings in the War of the Five Kings received any POV Chapters. This was to add further emphasis onto the morally ambiguous nature of the conflict."
 		},
 		{
-			questionText: "#5. ",
-			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
+			questionText: "#5. Tywin Lannister wiped out House Reyne during their rebellion. Which other house did he wipe out with them?",
+			questionChoices: ['A. House Greystark', 'B. House Casterly', 'C. House Tarbeck', 'D. House Gardener'],
 			correctChoiceIndex: 2,
-			answerText: "",
-			answerInfo: ""
+			answerText: "The correct answer was C. House Tarbeck.",
+			answerInfo: "House Greystark was wiped out after joining the Boltons in rebellion against the Starks centuries. House Casterly vanished sometime in the Age of Heroes. House Gardener was wiped out during Aegon's Conquest."
 		},
 		{
 			questionText: "#6. ",
 			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
 			correctChoiceIndex: 0,
-			answerText: "",
+			answerText: "The correct answer was A. ",
 			answerInfo: ""
 		},
 		{
 			questionText: "#7. ",
 			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
 			correctChoiceIndex: 1,
-			answerText: "",
+			answerText: "The correct answer was B. ",
 			answerInfo: ""
 		},
 		{
 			questionText: "#8. ",
 			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
 			correctChoiceIndex: 1,
-			answerText: "",
+			answerText: "The correct answer was B. ",
 			answerInfo: ""
 		},
 		{
 			questionText: "#9",
 			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
 			correctChoiceIndex: 3,
-			answerText: "",
+			answerText: "The correct answer was D. ",
 			answerInfo: ""
 		},
 		{
 			questionText: "#10",
 			questionChoices: ['A. ', 'B. ', 'C. ', 'D. '],
 			correctChoiceIndex: 2,
-			answerText: "",
+			answerText: "The correct answer was C. ",
 			answerInfo: ""
 		}
 	],
