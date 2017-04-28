@@ -182,3 +182,8 @@ function renderAnswerInfo(state, element) {
 	var text = currentQuestion.answerInfo;
 	element.text(text);
 };
+
+function renderFinalScore(state, element) {
+	var text = 'You scored ' + state.score + ' out of ' + state.questions.length + '.';
+	element.text(text);
+};
