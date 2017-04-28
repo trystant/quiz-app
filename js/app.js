@@ -130,3 +130,6 @@ function renderPage(state, elements) {
 		renderQuizScore(state, elements[state.position]);
 	}
 };
+
+function renderQuizStart(state, element) {
+};
