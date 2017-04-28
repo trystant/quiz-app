@@ -131,6 +131,7 @@ function renderPage(state, elements) {
 	}
 };
 
+// Rendering sections
 function renderQuizStart(state, element) {
 };
 
@@ -147,4 +148,11 @@ function renderQuizAnswer(state, element) {
 
 function renderQuizScore(state, element) {
 	renderFinalScore(state, element.find('.final-score'));
+};
+
+// Rendering elements within sections
+function renderQuestionText(state, element) {
+	var currentQuestion = state.questions[state.currentQuestionNumber];
+	var text = currentQuestion.questionText;
+	element.text(text);
 };
