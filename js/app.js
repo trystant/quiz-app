@@ -187,3 +187,32 @@ function renderFinalScore(state, element) {
 	var text = 'You scored ' + state.score + ' out of ' + state.questions.length + '.';
 	element.text(text);
 };
+
+$('form[name="quiz-begin"]').submit(function(event) {
+	event.preventDefault();
+	setPosition(state, 'quiz-question');
+	renderPage(state, page_variables);
+});
+
+$('form[name="question-form"]').submit(function(event) {
+	event.preventDefault();
+	var answer = $('input[name="user-answer"]:checked').val();
+	answer = parseInt(answer, 10);
+	answerQuestion(state, answer);
+	renderPage(state, page_variables);
+});
+
+$('form[name="quiz-continue"]').submit(function(event) {
+	nextQuestion(state);
+	renderPage(state, page_variables);
+});
+
+$('form[name="try-again"]').submit(function(event) {
+	event.preventDefault();
+	restartQuiz(state);
+	renderPage(state, page_variables);
+});
+
+$(function() {
+	renderPage(state, page_variables);
+});
