@@ -93,3 +93,12 @@ function restartQuiz(state) {
 	state.currentQuestionNumber = 0;
 	setPosition(state, 'quiz-start');
 };
+
+function answerQuestion(state, answer) {
+	var currentQuestion = state.questions[state.currentQuestionNumber];
+	state.lastAnswer = currentQuestion.currentQuestionNumber === answer;
+	if (state.lastAnswer) {
+		state.score++;
+	}
+	setPosition(state, 'quiz-answer');
+};
