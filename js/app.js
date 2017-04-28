@@ -156,3 +156,13 @@ function renderQuestionText(state, element) {
 	var text = currentQuestion.questionText;
 	element.text(text);
 };
+
+function renderQuestionChoices(state, element) {
+	var currentQuestion = state.questions[state.currentQuestionNumber];
+	var choices = currentQuestion.questionChoices.map(function(choice, index) {
+		return (
+			'<li><input type="radio" name="user-answer" value="' + index + '" required><label>' + choice + '</label></li>'
+		);
+	});
+	element.html(choices);
+};
