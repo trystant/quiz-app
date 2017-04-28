@@ -113,3 +113,20 @@ function nextQuestion(state) {
 		setPosition(state, 'question');
 	}
 };
+
+function renderPage(state, elements) {
+	Object.keys(elements).forEach(function(position) {
+		elements[position].hide();
+	});
+	elements[state.position].show();
+
+	if (state.position === 'quiz-start') {
+		renderQuizStart(state, elements[state.position]);
+	} else if (state.position === 'quiz-question') {
+		renderQuizQuestion(state, elements[state.position]);
+	} else if (state.position === 'quiz-answer') {
+		renderQuizAnswer(state, elements[state.position]);
+	} else if (state.position === 'quiz-score') {
+		renderQuizScore(state, elements[state.position]);
+	}
+};
