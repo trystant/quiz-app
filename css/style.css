@@ -20,6 +20,27 @@ li {
 	list-style-type: none;
 }
 
+.question-top {
+	width: 100%;
+}
+
+.question-text {
+	width: 40%;
+	float: left;
+}
+
+.question-number {
+	width: 25%;
+	margin-left: 5%;
+	float: left;
+}
+
+.question-score {
+	width: 25%;
+	margin-left: 5%;
+	float: left;
+}
+
 .correct-answer, .incorrect-answer {
 	font-size: 30px;
 }
