@@ -77,13 +77,6 @@ var state = {
 	lastAnswer: false,
 };
 
-var page_variables = {
-	'quiz-start': $('.quiz-start'),
-	'quiz-question': $('.quiz-question'),
-	'quiz-answer': $('.quiz-answer'),
-	'quiz-score': $('.quiz-score')
-};
-
 function setPosition(state, position) {
 	state.position = position;
 };
@@ -96,7 +89,7 @@ function restartQuiz(state) {
 
 function answerQuestion(state, answer) {
 	var currentQuestion = state.questions[state.currentQuestionNumber];
-	state.lastAnswer = currentQuestion.currentQuestionNumber === answer;
+	state.lastAnswer = currentQuestion.correctChoiceIndex === answer;
 	if (state.lastAnswer) {
 		state.score++;
 	}
@@ -168,7 +161,7 @@ function renderQuestionChoices(state, element) {
 };
 
 function renderAnswerHeader(state, element) {
-	var html = state.lastAnswer ? '<h3 class="correct-answer">Correct!</h3>' : '<h3 class="incorrect-answer">Incorrect!</h3>';
+	var html = state.lastAnswer ? '<h3 class="correct-answer">Correct!</h3>' : '<h3 class="incorrect-answer">Incorrect!</>';
 	element.html(html);
 };
 
@@ -187,6 +180,13 @@ function renderAnswerInfo(state, element) {
 function renderFinalScore(state, element) {
 	var text = 'You scored ' + state.score + ' out of ' + state.questions.length + '.';
 	element.text(text);
+};
+
+var page_variables = {
+	'quiz-start': $('.quiz-start'),
+	'quiz-question': $('.quiz-question'),
+	'quiz-answer': $('.quiz-answer'),
+	'quiz-score': $('.quiz-score')
 };
 
 $('form[name="quiz-begin"]').submit(function(event) {
